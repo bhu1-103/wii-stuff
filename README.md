@@ -14,3 +14,7 @@ trust 00:1B:11:22:33:44;
 `
 
 replace this mac address with the mac address of your wiimote
+
+everytime you connect, forget the device and reconnect, as it will start asking for a password
+
+
