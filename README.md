@@ -17,4 +17,4 @@ replace this mac address with the mac address of your wiimote
 
 everytime you connect, forget the device and reconnect, as it will start asking for a password
 
-
+range of accelerometer for wiimote and nunchuck is -512 to +512 units
