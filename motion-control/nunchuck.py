@@ -36,8 +36,8 @@ def handle_nunchuck_events():
                 last_values_nunchuck[event.code] = current_value_nunchuck
 
                 if event.code == ecodes.ABS_RX:
-                    move_mouse_relative(delta*2560/512, 0)  # Move on X-axis (relative)
+                    move_mouse_relative(delta, 0)  # Move on X-axis (relative)
                 elif event.code == ecodes.ABS_RY:
-                    move_mouse_relative(0, delta*1440/512)  # Move on Y-axis (relative)
+                    move_mouse_relative(0, delta)  # Move on Y-axis (relative)
 
 handle_nunchuck_events()
